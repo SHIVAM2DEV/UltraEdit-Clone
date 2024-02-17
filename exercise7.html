@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        font-family: "Ubuntu", sans-serif;
+        font-family: "Varela Round", sans-serif;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 150px 0 150px;
+      }
+
+      .ul {
+        display: flex;
+        align-items: center;
+      }
+      .ul a {
+        list-style: none;
+        text-decoration: none;
+        padding: 15px;
+        color: rgb(4, 4, 4);
+        
+      }
+      .ul a:hover {
+
+        
+        color: rgb(232, 15, 15);
+        
+      }
+
+
+      img {
+        margin-left: -40px;
+      }
+
+      .banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 100%;
+      }
+
+      .first-text {
+        display: flex;
+        align-items: center;
+      }
+
+      .first-text p {
+        font-size: 3rem;
+        padding: 50px;
+      }
+
+      
+      .banner-text {
+        font-size: 1.4rem;
+      }
+      button {
+        margin-top: 30px;
+        padding: 15px 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #00b6d1;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .palte{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -290px;
+      }
+        .grid-container{
+            display: grid;
+            grid-template-rows: auto auto auto auto auto;
+            grid-template-columns:auto auto auto ;
+            justify-content: center;
+            align-items: center;
+        }
+        .grid-box{
+
+           
+            width: 300px;
+            height: 170px;
+            margin: 15px;
+            background-color:#f9f9f9;
+        }
+
+        
+        .flex{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+        padding: 10px;
+        border-radius: 3px;
+        border: none;
+
+        }
+
+        .bule{
+            background-color: rgb(6, 210, 251);
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .green{
+            background-color: rgb(108, 177, 98);
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .item{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .sec-item{
+            margin: 8px;
+            font-size: .8rem;
+        }
+
+        .green a{
+            text-decoration: none;
+            color: white;
+        }
+        .bule a{
+            text-decoration: none;
+            color: white;
+
+        } 
+
+        .bottom{
+            display: flex;
+            height: 500px;
+            border: 2px solid black;
+            background-color: rgb(28, 28, 28);
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        
+        .first-box{
+            color: white;
+            display: flex;
+        }
+        .form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 250px;
+            width: 360px;
+            background-color: #f9f9f9;
+            border: 2px solid white;
+            border-radius: 10px;
+
+        }
+        .form p{
+            color: #00b6d1;
+            width: 250px;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            
+        }
+
+        .second-box{
+            color: white;
+        }
+
+        label{
+            color: black;
+        }
+
+        input{
+            height: 50px;
+            width: 285px;
+            border: 1px solid rgb(219, 218, 218);
+
+        }
+
+        .form-button{
+            height: 50px;
+            width: 285px;
+            box-sizing: border-box;
+            margin-top: 10px;
+        }
+
+
+        .ul select{
+            border: none;
+            margin: 15px;
+            font-size: 1rem;
+        
+        }
+       
+    </style>
+
+
+</head>
+
+<body>
+    <nav class="navigation">
+        <img src="LOGO.png" alt="ultra-edit-logo" height="80px" />
+        <ul class="ul">
+          <select name="" id="p">
+            <option value=""><a href="###"><li>Product</li></a></option>
+          </select>
+          <select name="" id="">
+            <option value=""><a href="###"><li>Pricing</li></a></option>
+          </select>
+          <select name="" id="">
+            <option value=""><a href="###"><li>Recources</li></a></option>
+          </select>
+          <select name="" id="">
+            <option value=""><a href="###"><li>About Us</li></a></option>
+          </select>
+          <a href="###"><li></li></a>
+          <img src="translation.png" alt="translate" />
+        </ul>
+      </nav>
+  
+      <div class="banner">
+        <div class="first-text">
+          <p>Download <b>UltraEdit</b> for Windows</p>
+          <img src="rating.png" height="80px" />
+        </div>
+  
+        <p class="banner-text">
+          Download and try UltraEdit before you buy it! This download includes the
+          full Windows <div>verson of the text editor.</div>
+        </p>
+  
+        <button>DOWNLOAD MAC AND ANDROID VERSON</button>
+      </div>
+      
+  
+      <div class="palte">
+          <img src="kkk.png">
+          <p>Download UltraEdit</p>
+          <p>v2023.1(released 08/16/2023) | Hotfix</p>
+      </div>
+
+    <div class="grid-container">
+       
+        <div class="grid-box grid-box2 flex">
+            <div class="item">English</div>
+            <div class="buttons">
+                <button class="bule"><a href="ue_english.exe">Download 32-bit</a></button>
+            <button class="green"><a href="ue_english.exe">Download 64-bit</a></button>
+            </div>
+            
+        </div>
+        <div class="grid-box grid-box3 flex">
+            <div class="item">Deutsch</div>
+            <div class="sec-item">German</div>
+            <div class="buttons">
+                <button class="bule"><a href="ue_english.exe">Download 32-bit</a></button>
+            <button class="green"><a href="ue_english.exe">Download 64-bit</a></button>
+            </div>
+
+        </div>
+        <div class="grid-box grid-box4 flex">
+            <div class="item">Italiano</div>
+            <div class="sec-item">Italian</div>
+            <div class="buttons">
+                <button class="bule"><a href="ue_english.exe">Download 32-bit</a></button>
+            <button class="green"><a href="ue_english.exe">Download 64-bit</a></button>
+            </div>
+        </div>
+        <div class="grid-box grid-box5 flex">
+            <div class="item">Español</div>
+            <div class="sec-item">Spanish</div>
+            <div class="buttons">
+                <button class="bule"><a href="ue_english.exe">Download 32-bit</a></button>
+            <button class="green"><a href="ue_english.exe">Download 64-bit</a></button>
+            </div>
+        </div>
+        <div class="grid-box grid-box6 flex">
+            <div class="item">français</div>
+            <div class="sec-item">French</div>
+            <div class="buttons">
+                <button class="bule"><a href="ue_english.exe">Download 32-bit</a></button>
+            <button class="green"> <a href="ue_english.exe">Download 64-bit</a></button>
+            </div>
+        </div>
+        <div class="grid-box grid-box7 flex">
+            <div class="item">Português brasileiro</div>
+            <div class="sec-item">Brazilian Portuguese</div>
+            <div class="buttons">
+                <button class="bule"><a href="ue_english.exe">Download 32-bit</a></button>
+            <button class="green"><a href="ue_english.exe">Download 64-bit</a></button>
+            </div>
+        </div>
+        <div class="grid-box grid-box8 flex">
+            <div class="item">日本</div>
+            <div class="sec-item">Japanese</div>
+            <div class="buttons">
+                <button class="bule"><a href="ue_english.exe">Download 32-bit</a></button>
+            <button class="green"><a href="ue_english.exe">Download 64-bit</a></button>
+            </div>
+        </div>
+        <div class="grid-box grid-box9 flex">
+            <div class="item">한국어</div>
+            <div class="sec-item">Korean</div>
+            <div class="buttons">
+                <button class="bule"><a href="ue_english.exe">Download 32-bit</a></button>
+            <button class="green"><a href="ue_english.exe">Download 64-bit</a></button>
+            </div>
+        </div>
+        <div class="grid-box grid-box10 flex">
+            <div class="item">中国</div>
+            <div class="sec-item">Chinese</div>
+            <div class="buttons">
+                <button class="bule"><a href="ue_english.exe">Download 32-bit</a></button>
+            <button class="green"><a href="ue_english.exe">Download 64-bit</a></button>
+            </div>
+        </div>
+        <div class="grid-box grid-box11 flex">
+            <div class="item">中國</div>
+            <div class="sec-item">Treditional-Chinese</div>
+            <div class="buttons">
+                <button class="bule"><a href="ue_english.exe">Download 32-bit</a></button>
+            <button class="green"><a href="ue_english.exe">Download 64-bit</a></button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <div class="first-box">
+            <div class="text">
+                <h2>Join the UltraEdit newsletter</h2>
+            <p>Sign up for our newsletter and receave mails for the letest news blocg and special deals on UltraEdit </p>
+            </div>
+
+            <div class="form">
+                <p>Subscribe to our emails</p>
+                <label for="email">Enter email address</label>
+                <input type="text" id="email">
+                <button class="form-button">SIGN UP</button>
+            </div>
+        </div>
+
+        <div class="second-box">
+            <h2>EXE or MSI?</h2>
+            <p>The EXE builds of our products are the preferred download for most of our users, running Windows 8.1 and later.</p>
+            <p>We make MSI builds available for bulk or silent deployments (command line, GPO, SCCM, etc.). Get the UltraEdit MSI installer.</p>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
